@@ -78,7 +78,7 @@ body{
 
 }
 .profileText h1 span {
-    color: crimson;
+    color:  #625f5f;
 }
 .profileText h2  {
     font-weight: 100;
@@ -86,7 +86,7 @@ body{
 
 }
 .profileText h1 span {
-    color: crimson;
+    color:  #625f5f;
 }
 
 
@@ -153,7 +153,7 @@ body{
     margin-bottom: 15px;
 }
 .container .education h4 span {
-    color: crimson;
+    color:  #625f5f;
     font-weight: 500;
 
 }
@@ -164,7 +164,7 @@ body{
 .container .education h4 a {
     color: white;
     font-weight: 400;
-    text-decoration: none;
+
     transition: 0.5s ease filter;
 }
 
@@ -196,7 +196,7 @@ body{
     top: 0;
     left: 0;
     height: 100%;
-    background: crimson;
+    background:  #625f5f;
 }
 
 
@@ -213,7 +213,7 @@ body{
 
 .container .right_said {
     position: relative;
-    background-color: crimson;
+    background-color:  #625f5f;
     font-weight: 300;
 
 }

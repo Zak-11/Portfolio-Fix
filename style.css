@@ -21,7 +21,7 @@ a{
 img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+
 }
 p {
     color: black;
@@ -41,7 +41,7 @@ p {
     text-align: center;
 }
 .section-title span {
-    color: crimson;
+    color: #625f5f;
 }
 
 .cta {
@@ -49,7 +49,7 @@ p {
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid crimson;
+    border: 2px solid  #625f5f;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -59,7 +59,7 @@ p {
 }
 .cta:hover {
     color: white;
-    background-color: crimson;
+    background-color:  #625f5f;
 }
 .brand h1 {
     font-size: 3rem;
@@ -67,7 +67,7 @@ p {
     color: white;
 }
 .brand h1 span {
-    color: crimson;
+    color:  #625f5f;
 }
 
 
@@ -139,7 +139,7 @@ p {
     letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-    color: crimson;
+    color: #e8d8d8;
 }
 #header .hamburger {
     height: 60px;
@@ -199,14 +199,14 @@ p {
 
 
 #hero{
-    background-image: url("image/dfghj (2).jpg");
-    background-size: cover;
-    background-position: top center;
-    width: auto;
+ /*  background-image: url("image/my_photo.jpg");*/
+    background-size: auto;
+    background-position: top left;
+    width:auto;
     height: auto;
     position: relative;
+    background-repeat: no-repeat;
     z-index: 1;
-
 }
 #hero::after{
     content: '';
@@ -253,7 +253,7 @@ p {
     left: 0;
     height: 100%;
     width: 0;
-    background-color: crimson;
+    background-color: #e8d8d8;
     animation: text_reveal_box 1s ease;
     animation-delay: 0.5s;
 }
@@ -271,7 +271,7 @@ p {
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid crimson;
+    border: 2px solid #f8eded;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -281,7 +281,7 @@ p {
 }
 #hero .cta:hover{
     color: white;
-    background-color: crimson;
+    background-color: #e8dada;
 }
 
 
@@ -468,7 +468,7 @@ p {
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid crimson;
+    border: 7px solid #e7dddf;
     z-index: -1;
 }
 /* contact Section */
@@ -507,6 +507,7 @@ p {
 
 #contact .contact-item:hover {
     box-shadow: 0 0 5px 0 #0000002c;
+
 }
 #contact .icon {
     width: 70px;
@@ -590,7 +591,7 @@ p {
 }
 @keyframes text_reveal_name {
     100% {
-        color: crimson;
+        color: #ecdee1;
         font-weight: 500;
     }
 }
@@ -654,7 +655,7 @@ p {
         top: 34px;
         height: 98%;
         width: 98%;
-        border: 10px solid crimson;
+        border: 10px solid #ece5e6;
     }
     #about .col-right {
         text-align: left;
